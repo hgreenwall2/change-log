@@ -12,6 +12,8 @@ const path = require('path');
 const defaultOrg = '$' + '{organization}';
 const whitespacePaddingRE = /^\s+|\s+$/g;
 const rcfile = require('rcfile')('change-log', {configFileName: '.changelog'});
+const parallel = require('async/parallel');
+const stringDecoder = require('string_decoder');
 
 function parsePkgRepo (repo) {
   let result = {};
@@ -56,6 +58,20 @@ function writeLinesToFile (filePath, lines, next) {
   fs.writeFile(filePath, data, next);
 }
 
+function writeVersion (fullVersion){
+  fullVersion=fullVersion.replace('v','')
+  parallel({
+  package: apply(fs.readFile, 'package.json'),
+  shrinkwrap: apply(fs.readFile, 'npm-shrinkwrap.json')
+}, (error,response)=>{
+    const shrinkwrap=JSON.parse(response.shrinkwrap)
+    const pkg=JSON.parse(response.package)
+    shrinkwrap.version=fullVersion
+    pkg.version=fullVersion
+    fs.writeFile('package.json', JSON.stringify(pkg, null, 2))
+    fs.writeFile('npm-shrinkwrap.json', JSON.stringify(shrinkwrap, null, 2))
+  })
+}
 function executeTask (args, options, next) {
   const task = args[0];
   const value = args[1];
@@ -87,7 +103,10 @@ function executeTask (args, options, next) {
       writeLinesToFile,
       asyncArgs.values('release'),
       asyncArgs.select('/fullVersion'),
-      asyncify(console.log)
+      asyncify(console.log),
+      asyncArgs.values('release'),
+      asyncArgs.select('/fullVersion'),
+      writeVersion
     ], next);
   }
 

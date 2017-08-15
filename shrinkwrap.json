@@ -1,0 +1,116 @@
+{
+  "name": "change-log",
+  "version": "16.0.0",
+  "dependencies": {
+    "argparse": {
+      "version": "1.0.9",
+      "from": "argparse@>=1.0.7 <2.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/argparse/-/argparse-1.0.9.tgz"
+    },
+    "async": {
+      "version": "2.5.0",
+      "from": "async@>=2.1.2 <3.0.0",
+      "resolved": "https://registry.npmjs.org/async/-/async-2.5.0.tgz"
+    },
+    "async-args": {
+      "version": "1.4.6",
+      "from": "async-args@>=1.4.4 <2.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/async-args/-/async-args-1.4.6.tgz"
+    },
+    "caller-path": {
+      "version": "0.1.0",
+      "from": "caller-path@>=0.1.0 <0.2.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/caller-path/-/caller-path-0.1.0.tgz"
+    },
+    "callsites": {
+      "version": "0.2.0",
+      "from": "callsites@>=0.2.0 <0.3.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/callsites/-/callsites-0.2.0.tgz"
+    },
+    "debug": {
+      "version": "2.6.8",
+      "from": "debug@>=2.2.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.8.tgz"
+    },
+    "esprima": {
+      "version": "4.0.0",
+      "from": "esprima@>=4.0.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/esprima/-/esprima-4.0.0.tgz"
+    },
+    "js-yaml": {
+      "version": "3.9.1",
+      "from": "js-yaml@>=3.6.1 <4.0.0",
+      "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.9.1.tgz"
+    },
+    "json5": {
+      "version": "0.5.1",
+      "from": "json5@>=0.5.0 <0.6.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/json5/-/json5-0.5.1.tgz"
+    },
+    "jsonpointer": {
+      "version": "4.0.1",
+      "from": "jsonpointer@>=4.0.1 <5.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/jsonpointer/-/jsonpointer-4.0.1.tgz"
+    },
+    "lodash": {
+      "version": "4.17.4",
+      "from": "lodash@>=4.14.0 <5.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/lodash/-/lodash-4.17.4.tgz"
+    },
+    "minimist": {
+      "version": "1.2.0",
+      "from": "minimist@>=1.2.0 <2.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/minimist/-/minimist-1.2.0.tgz"
+    },
+    "ms": {
+      "version": "2.0.0",
+      "from": "ms@2.0.0",
+      "resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz"
+    },
+    "object-assign": {
+      "version": "4.1.1",
+      "from": "object-assign@>=4.1.0 <5.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/object-assign/-/object-assign-4.1.1.tgz"
+    },
+    "object-keys": {
+      "version": "1.0.11",
+      "from": "object-keys@>=1.0.9 <2.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/object-keys/-/object-keys-1.0.11.tgz"
+    },
+    "path-exists": {
+      "version": "2.1.0",
+      "from": "path-exists@>=2.1.0 <3.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/path-exists/-/path-exists-2.1.0.tgz"
+    },
+    "pinkie": {
+      "version": "2.0.4",
+      "from": "pinkie@>=2.0.0 <3.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/pinkie/-/pinkie-2.0.4.tgz"
+    },
+    "pinkie-promise": {
+      "version": "2.0.1",
+      "from": "pinkie-promise@>=2.0.0 <3.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/pinkie-promise/-/pinkie-promise-2.0.1.tgz"
+    },
+    "rcfile": {
+      "version": "1.0.3",
+      "from": "rcfile@>=1.0.3 <2.0.0",
+      "resolved": "https://registry.npmjs.org/rcfile/-/rcfile-1.0.3.tgz"
+    },
+    "require-uncached": {
+      "version": "1.0.3",
+      "from": "require-uncached@>=1.0.2 <2.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/require-uncached/-/require-uncached-1.0.3.tgz"
+    },
+    "resolve-from": {
+      "version": "1.0.1",
+      "from": "resolve-from@>=1.0.0 <2.0.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/resolve-from/-/resolve-from-1.0.1.tgz"
+    },
+    "sprintf-js": {
+      "version": "1.0.3",
+      "from": "sprintf-js@>=1.0.2 <1.1.0",
+      "resolved": "http://repository.overstock.com/content/groups/npm/sprintf-js/-/sprintf-js-1.0.3.tgz"
+    }
+  }
+}

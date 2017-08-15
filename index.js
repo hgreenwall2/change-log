@@ -57,21 +57,42 @@ function writeLinesToFile (filePath, lines, next) {
   const data = lines.join('\n') + '\n';
   fs.writeFile(filePath, data, next);
 }
+ function safeReadFile (name, next) {
+   fs.readFile (name, (error, value)=>{
+     try {
+      if (value) value=JSON.parse (value);
+    }catch (e){
+      //Intentionally ignoring error
+    }
 
-function writeVersion (fullVersion){
-  fullVersion=fullVersion.replace('v','')
-  parallel({
-  package: apply(fs.readFile, 'package.json'),
-  shrinkwrap: apply(fs.readFile, 'npm-shrinkwrap.json')
-}, (error,response)=>{
-    const shrinkwrap=JSON.parse(response.shrinkwrap)
-    const pkg=JSON.parse(response.package)
-    shrinkwrap.version=fullVersion
-    pkg.version=fullVersion
-    fs.writeFile('package.json', JSON.stringify(pkg, null, 2))
-    fs.writeFile('npm-shrinkwrap.json', JSON.stringify(shrinkwrap, null, 2))
-  })
+     next (null, value);
+   })
+ }
+
+ function writeVersion (fullVersion) {
+     fullVersion = fullVersion.replace('v','');
+     parallel({
+
+         package: apply(safeReadFile, 'package.json'),
+         shrinkwrap: apply(safeReadFile, 'npm-shrinkwrap.json')
+     }, (error, response) => {
+         if (error) {
+           console.log(response);
+
+         }
+
+         if (response.shrinkwrap){
+             response.shrinkwrap.version=fullVersion
+             fs.writeFile('npm-shrinkwrap.json', JSON.stringify(response.shrinkwrap, null, 2))
+         }
+
+         if (response.pkg){
+             reponse.pkg.version=fullVersion
+             fs.writeFile('response.package.json', JSON.stringify(pkg, null, 2))
+         }
+     });
 }
+
 function executeTask (args, options, next) {
   const task = args[0];
   const value = args[1];

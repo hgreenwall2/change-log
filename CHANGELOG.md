@@ -11,6 +11,146 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Minor
 
 ### Patch
+
+## [v28.0.0] - 2017-08-15
+
+### Major
+- test
+- test
+
+## [v27.0.0] - 2017-08-15
+
+### Major
+- test
+
+## [v26.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v25.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v24.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v23.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v22.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v21.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v20.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v19.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v18.0.0] - 2017-08-11
+
+### Major
+- test
+
+## [v17.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v16.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v15.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v14.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v13.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v12.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v11.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v10.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v9.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v8.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v7.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v6.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v5.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v4.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v3.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v2.0.0] - 2017-08-02
+
+### Major
+- test
+
+## [v1.6.2] - 2017-08-02
+
+### Patch
 - Fix an issue in the readme
 
 ## [v1.6.1] - 2016-12-07
@@ -101,7 +241,35 @@ to the Unreleased section
 ### Major
 - Generate a new CHANGELOG.md file
 
-[Unreleased]: https://github.com/majgis/change-log/compare/v1.6.1...master
+[Unreleased]: https://github.com/majgis/change-log/compare/v28.0.0...master
+[v28.0.0]: https://github.com/majgis/change-log/compare/v27.0.0...v28.0.0
+[v27.0.0]: https://github.com/majgis/change-log/compare/v26.0.0...v27.0.0
+[v26.0.0]: https://github.com/majgis/change-log/compare/v25.0.0...v26.0.0
+[v25.0.0]: https://github.com/majgis/change-log/compare/v24.0.0...v25.0.0
+[v24.0.0]: https://github.com/majgis/change-log/compare/v23.0.0...v24.0.0
+[v23.0.0]: https://github.com/majgis/change-log/compare/v22.0.0...v23.0.0
+[v22.0.0]: https://github.com/majgis/change-log/compare/v21.0.0...v22.0.0
+[v21.0.0]: https://github.com/majgis/change-log/compare/v20.0.0...v21.0.0
+[v20.0.0]: https://github.com/majgis/change-log/compare/v19.0.0...v20.0.0
+[v19.0.0]: https://github.com/majgis/change-log/compare/v18.0.0...v19.0.0
+[v18.0.0]: https://github.com/majgis/change-log/compare/v17.0.0...v18.0.0
+[v17.0.0]: https://github.com/majgis/change-log/compare/v16.0.0...v17.0.0
+[v16.0.0]: https://github.com/majgis/change-log/compare/v15.0.0...v16.0.0
+[v15.0.0]: https://github.com/majgis/change-log/compare/v14.0.0...v15.0.0
+[v14.0.0]: https://github.com/majgis/change-log/compare/v13.0.0...v14.0.0
+[v13.0.0]: https://github.com/majgis/change-log/compare/v12.0.0...v13.0.0
+[v12.0.0]: https://github.com/majgis/change-log/compare/v11.0.0...v12.0.0
+[v11.0.0]: https://github.com/majgis/change-log/compare/v10.0.0...v11.0.0
+[v10.0.0]: https://github.com/majgis/change-log/compare/v9.0.0...v10.0.0
+[v9.0.0]: https://github.com/majgis/change-log/compare/v8.0.0...v9.0.0
+[v8.0.0]: https://github.com/majgis/change-log/compare/v7.0.0...v8.0.0
+[v7.0.0]: https://github.com/majgis/change-log/compare/v6.0.0...v7.0.0
+[v6.0.0]: https://github.com/majgis/change-log/compare/v5.0.0...v6.0.0
+[v5.0.0]: https://github.com/majgis/change-log/compare/v4.0.0...v5.0.0
+[v4.0.0]: https://github.com/majgis/change-log/compare/v3.0.0...v4.0.0
+[v3.0.0]: https://github.com/majgis/change-log/compare/v2.0.0...v3.0.0
+[v2.0.0]: https://github.com/majgis/change-log/compare/v1.6.2...v2.0.0
+[v1.6.2]: https://github.com/majgis/change-log/compare/v1.6.1...v1.6.2
 [v1.6.1]: https://github.com/majgis/change-log/compare/v1.6.0...v1.6.1
 [v1.6.0]: https://github.com/majgis/change-log/compare/v1.5.4...v1.6.0
 [v1.5.4]: https://github.com/majgis/change-log/compare/v1.5.3...v1.5.4
